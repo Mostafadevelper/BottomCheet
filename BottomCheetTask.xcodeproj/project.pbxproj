@@ -18,6 +18,8 @@
 		B2365A7B2796DDF8009C8BAA /* TableView+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2365A7A2796DDF8009C8BAA /* TableView+EX.swift */; };
 		B2365A7D2796DE1E009C8BAA /* UIView+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2365A7C2796DE1E009C8BAA /* UIView+EX.swift */; };
 		B2365A7F27970FF2009C8BAA /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2365A7E27970FF2009C8BAA /* UIColor+Ex.swift */; };
+		B28CBF8A279C584500360896 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = B28CBF89279C584500360896 /* Readme.md */; };
+		B28CBF8C279C58DF00360896 /* app.gif in Resources */ = {isa = PBXBuildFile; fileRef = B28CBF8B279C58DF00360896 /* app.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B2365A7A2796DDF8009C8BAA /* TableView+EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+EX.swift"; sourceTree = "<group>"; };
 		B2365A7C2796DE1E009C8BAA /* UIView+EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+EX.swift"; sourceTree = "<group>"; };
 		B2365A7E27970FF2009C8BAA /* UIColor+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ex.swift"; sourceTree = "<group>"; };
+		B28CBF89279C584500360896 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		B28CBF8B279C58DF00360896 /* app.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		B2365A4C2796DB09009C8BAA = {
 			isa = PBXGroup;
 			children = (
+				B28CBF89279C584500360896 /* Readme.md */,
 				B2365A572796DB09009C8BAA /* BottomCheetTask */,
 				B2365A562796DB09009C8BAA /* Products */,
 			);
@@ -71,6 +76,7 @@
 				B2365A742796DC0C009C8BAA /* Helper */,
 				B2365A612796DB0E009C8BAA /* Assets.xcassets */,
 				B2365A632796DB0E009C8BAA /* LaunchScreen.storyboard */,
+				B28CBF8B279C58DF00360896 /* app.gif */,
 			);
 			path = BottomCheetTask;
 			sourceTree = "<group>";
@@ -204,6 +210,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28CBF8C279C58DF00360896 /* app.gif in Resources */,
+				B28CBF8A279C584500360896 /* Readme.md in Resources */,
 				B2365A652796DB0E009C8BAA /* LaunchScreen.storyboard in Resources */,
 				B2365A622796DB0E009C8BAA /* Assets.xcassets in Resources */,
 				B2365A602796DB09009C8BAA /* Main.storyboard in Resources */,
@@ -390,7 +398,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -418,7 +426,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
